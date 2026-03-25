@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         int choice = 0;
         while (choice != 5) {
-            System.out.println("\n===== CampusCare Menu =====");
+            System.out.println(" CampusCare - Campus Maintenance System ");
             System.out.println("1. Add Person (Student or Staff)");
             System.out.println("2. Create Ticket");
             System.out.println("3. View All Tickets");
