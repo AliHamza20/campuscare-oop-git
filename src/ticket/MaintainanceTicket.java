@@ -14,9 +14,10 @@ public class MaintainanceTicket extends Ticket {
 
     @Override
     public double priorityScore() {
-        double score = 1.0;  // changed from 5.0
+        // Higher priority if location includes 'lab'
+        double score = 5.0;
         if (getLocation().toLowerCase().contains("lab")) {
-            score += 1.0;  // changed from 4.0
+            score += 4.0;
         }
         if (type.equalsIgnoreCase("Chair") || type.equalsIgnoreCase("Desk")) {
             score += 1.0;
