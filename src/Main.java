@@ -194,4 +194,18 @@ public class Main {
         }
         System.out.println("Ticket ID not found.");
     }
+    static void printReport() {
+        int newCount = 0, assignedCount = 0, resolvedCount = 0;
+        for (Ticket t : tickets) {
+            switch (t.getStatus()) {
+                case "New": newCount++; break;
+                case "Assigned": assignedCount++; break;
+                case "Resolved": resolvedCount++; break;
+            }
+        }
+        System.out.println("\n-- Ticket Report --");
+        System.out.println("New: " + newCount);
+        System.out.println("Assigned: " + assignedCount);
+        System.out.println("Resolved: " + resolvedCount);
+    }
 }
