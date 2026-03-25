@@ -9,3 +9,6 @@ A console-based campus maintenance complaint management system.
 ## Notes
 - Supports Maintenance and Cleaning ticket types
 - Priority score calculated automatically
+- ## Author
+- Name: Ali Hamza
+- Sap id: 57241
