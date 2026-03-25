@@ -162,8 +162,8 @@ public class Main {
             System.out.println(t); // uses polymorphism
         }
     }
-
     static void updateTicketStatus() {
+        System.out.println("\n-- Update Ticket Status --");
         if (tickets.isEmpty()) {
             System.out.println("No tickets found.");
             return;
